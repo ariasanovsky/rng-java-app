@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.badlogicgames.gdx:gdx-backend-headless:1.9.9'
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
+run {
+    mainClassName = 'Main' // Replace 'Main' with your actual main class
+    standardInput = System.in
+}
