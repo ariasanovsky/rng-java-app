@@ -29,7 +29,7 @@ It prints
 
 ```rust
 RngValues {
-    seed: 12345,
+    seed: 12345i64 as u64,
     values: [Some(RngValue::U64(1382432690769144372i64 as u64)), Some(RngValue::Advance(10)), Some(RngValue::CappedU64 { modulus: 134, residue: 83 }), Some(RngValue::U64(-5355119237153046436i64 as u64)), None, None, None, None, None, None, None, None, None, None, None, None, ],
 }
 ```

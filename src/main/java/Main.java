@@ -18,7 +18,7 @@ public class Main {
 
         // Print seed
         System.out.println("RngValues {");
-        System.out.println("    seed: " + seed + ",");
+        System.out.println("    seed: " + seed + "i64 as u64,");
 
         // Print values
         System.out.print("    values: [");
